@@ -1,6 +1,7 @@
 'use client';
 
 import type { CSSProperties } from 'react';
+// @ts-ignore
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import Image from 'next/image';
