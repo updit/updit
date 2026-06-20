@@ -14,7 +14,7 @@ const copy = {
   },
   h1: {
     en: ['words in.', 'code out.'],
-    jp: ['何かを作るって、', 'やっぱり楽しいね。'],
+    jp: ['何かを作るって、', 'やっぱり楽しいね'],
   },
   sub: {
     en: 'Culture, always in the loop. I build small apps with AI — playful, useful, and occasionally niche on purpose.',
@@ -22,9 +22,9 @@ const copy = {
   },
   cta: {
     en: [
-      'Got an idea for a new app? Feedback?',
+      'Got an idea for a new app?',
       'Want a working prototype built — source code and all?',
-      'Or just want to start something together?',
+      'Or just want to make something together?',
     ],
     jp: [
       '新しいアプリのアイデア、フィードバック、動くプロトタイプ制作、',

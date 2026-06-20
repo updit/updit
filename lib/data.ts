@@ -33,7 +33,7 @@ export const appCards: AppCard[] = [
 export const stats: Stat[] = [
   { value: '10+', label: 'Years in JP ad & promo' },
   { value: 'EN⇄JP', label: 'Native-level localization' },
-  { value: '1:1', label: 'Direct, generalist support' },
+  { value: 'Direct', label: '1:1 support' },
 ];
 
 export const services: Service[] = [

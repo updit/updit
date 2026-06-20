@@ -149,7 +149,9 @@ export default function ContactSection() {
         )}
 
         <p className="text-xs mt-4 mb-8 text-right" style={{ color: 'rgba(255,255,255,0.4)' }}>
-          Usually replies within 48 hours. Based overseas — email is our main channel.
+          Usually replies within 48 hours.
+          <br />
+          Based overseas — email is our main channel.
         </p>
       </div>
 

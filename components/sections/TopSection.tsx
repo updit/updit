@@ -29,7 +29,7 @@ export default function TopSection() {
           lineHeight: 1.6,
         }}
       >
-        I am Mari from Updit,{' '}
+        I am Mari from updit,{' '}
         <AnimatedLinkWord
           onClick={() => scrollToSection('app')}
           variant="marker"
@@ -38,7 +38,7 @@ export default function TopSection() {
           previewLabel="/app — fotomenu / ExtaNou / titbit"
           imageSrc="/sc_apps.png"
         >
-          App developer
+          a web app creator
         </AnimatedLinkWord>
         ,
         <br />
@@ -54,11 +54,11 @@ export default function TopSection() {
         </AnimatedLinkWord>
         .
         <br />
-        Making things make sense, however the language.
+        Making things make sense, whatever the language.
       </div>
 
       <div style={{ marginTop: '80px', color: '#666' }} className="text-xs">
-        A studio since the 90s — paused, and quietly back, 2026.
+        Around since the '90s. Paused. Now quietly back in 2026.
       </div>
     </div>
   );

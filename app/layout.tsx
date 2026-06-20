@@ -19,14 +19,14 @@ const zenKaku = Zen_Kaku_Gothic_New({
 });
 
 export const metadata: Metadata = {
-  title: "updit - Web app developer & JP-EN localizer",
+  title: "updit — Web Apps, Localization, and Creative Problem Solving",
   description:
-    "App developer and JP↔EN localizer. Building useful things, bridging languages.",
+    "Generalist by nature. Web app creator, English–Japanese localizer, and fixer of things.",
   metadataBase: new URL("https://updit.co"),
   openGraph: {
-    title: "updit - Web app developer & JP-EN localizer",
+    title: "updit — Web Apps, Localization, and Creative Problem Solving",
     description:
-      "App developer and JP↔EN localizer. Building useful things, bridging languages.",
+      "Generalist by nature. Web app creator, English–Japanese localizer, and fixer of things.",
     url: "https://updit.co",
     siteName: "updit",
     images: [
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "updit - Web app developer & JP-EN localizer",
+    title: "updit — Web Apps, Localization, and Creative Problem Solving",
     description:
-      "App developer and JP↔EN localizer. Building useful things, bridging languages.",
+      "Generalist by nature. Web app creator, English–Japanese localizer, and fixer of things.",
     images: ["/up_og.png"],
   },
   icons: {

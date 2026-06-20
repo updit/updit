@@ -5,8 +5,8 @@ import { scrollToSection } from '@/lib/utils';
 import type { Section } from '@/types';
 
 const navItems: { label: string; section: Section }[] = [
-  { label: 'app development', section: 'app' },
-  { label: 'localization', section: 'localize' },
+  { label: 'apps', section: 'app' },
+  { label: 'localize', section: 'localize' },
   { label: 'contact', section: 'contact' },
 ];
 

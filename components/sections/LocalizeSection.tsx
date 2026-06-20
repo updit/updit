@@ -21,8 +21,8 @@ export default function LocalizeSection() {
           </h1>
 
           <p className="text-lg max-w-xl mt-6" style={{ color: '#fefefe', opacity: 0.85 }}>
-            Thinking about entering the Japanese market? Updit helps with strategy and creative
-            grounded in 10 years of Japanese advertising and promotional work — not just word-for-word
+            Thinking about entering the Japanese market? updit helps with strategy and creative
+            grounded in over 10 years of Japanese advertising and promotional work — not just word-for-word
             translation.
           </p>
 

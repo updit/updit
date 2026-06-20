@@ -63,7 +63,7 @@ export default function DragSlider({ sliderPosition, onDrag, language }: DragSli
       {/* inactive label right */}
       {!isJp && (
         <span className="absolute right-5 text-sm font-bold select-none" style={{ color: '#999' }}>
-          やっほー!
+          こんにちは!
         </span>
       )}
 
