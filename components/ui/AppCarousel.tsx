@@ -65,7 +65,7 @@ export default function AppCarousel({ appCards, language }: AppCarouselProps) {
                   left: '20px',
                   width: '80px',
                   height: '80px',
-                  background: 'white',
+                  background: 'rgba(255, 255, 255, 0.7)',
                   borderRadius: '12px',
                   padding: '4px',
                   boxShadow: '0 2px 8px rgba(0,0,0,0.15)',

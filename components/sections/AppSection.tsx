@@ -10,7 +10,7 @@ import AppCarousel from '@/components/ui/AppCarousel';
 const copy = {
   tag: {
     en: 'GENERALIST BY NATURE, SPECIALIST ON DEMAND',
-    jp: '生まれつきのジェネラリスト、必要に応じてスペシャリスト',
+    jp: 'ジェネラリストの本領発揮！',
   },
   h1: {
     en: ['words in.', 'code out.'],
