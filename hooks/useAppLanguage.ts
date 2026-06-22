@@ -8,9 +8,19 @@ interface UseAppLanguageReturn {
   setLanguage: Dispatch<SetStateAction<Language>>;
 }
 
+const getBrowserLanguage = (): Language => {
+  if (typeof window === 'undefined') return 'en';
+  const lang = navigator.language || navigator.languages?.[0] || 'en';
+  return lang.startsWith('ja') ? 'jp' : 'en';
+};
+
 export function useAppLanguage(): UseAppLanguageReturn {
-  const [language, setLanguage] = useState<Language>('en');
-  const [sliderPosition, setSliderPosition] = useState<number>(15);
+  const initialLanguage = getBrowserLanguage();
+
+  const [language, setLanguage] = useState<Language>(initialLanguage);
+  const [sliderPosition, setSliderPosition] = useState<number>(
+    initialLanguage === 'jp' ? 85 : 15
+  );
 
   const handleDrag = (clientX: number, containerWidth: number) => {
     const position = Math.min(100, Math.max(0, (clientX / containerWidth) * 100));
