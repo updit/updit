@@ -55,6 +55,9 @@ export const metadata: Metadata = {
     ],
     apple: "/up192.png",
   },
+  verification: {
+    google: "LgM42nwsCkVUsNRnSR1xc3oQTJRXIuYiKhaP34N5E1A",
+  },
 };
 
 export default function RootLayout({
