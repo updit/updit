@@ -14,7 +14,7 @@ export default function TopSection() {
           Hello,
         </div>
         <div style={{ fontSize: 'clamp(58px, 8vw, 77px)', fontWeight: 900 }}>
-          <AnimatedLinkWord href="https://bijikobo.vercel.app/" variant="circle" previewLabel="美字工房 — iljos.com" imageSrc="/sc_biji.png">
+          <AnimatedLinkWord href="https://iljos.com/" variant="circle" previewLabel="美字工房 — iljos.com" imageSrc="/sc_biji.png">
             こんにちは！
           </AnimatedLinkWord>
         </div>
